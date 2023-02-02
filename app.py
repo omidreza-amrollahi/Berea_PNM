@@ -307,8 +307,8 @@ if file is not None:
     slice = st.number_input("Enter slice number to plot along x axis", value=1)
     plot_snow_partitioning(regions, slice=slice)
     
-    sph = get_inscribed_sphere(regions)
-    plot_inscribed_sphere(sph, slice=slice)
+    # sph = get_inscribed_sphere(regions)
+    # plot_inscribed_sphere(sph, slice=slice)
     
     net = extract_network(regions, boundary_faces, voxel_size, marching_cubes_area)
     pn, prj, geom = get_pore_network(net)
