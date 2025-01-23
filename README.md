@@ -1,6 +1,22 @@
 # Berea_PNM
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/omidreza-amrollahi/Berea_PNM/HEAD)
 
+
+install uv from https://docs.astral.sh/uv/getting-started/installation/
+
+install python with  
+uv python install 3.9
+
+make a venv with
+uv venv --python 3.9 
+
+activate the venv with the command given from uv
+
+then install packages with 
+uv sync
+
+this environment does not work on a mac with M chips because of compatibility issues
+
 Primary drainage in static pore network modelling: a comparative study
 
 Research output: Thesis › Master's Thesis
